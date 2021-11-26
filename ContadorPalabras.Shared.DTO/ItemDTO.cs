@@ -9,6 +9,8 @@ namespace ContadorPalabras.Shared.DTO
 
         }
 
+        //comentario de prueba
+
         public ItemDTO(string _palabra)
         {
             Palabra = _palabra;
