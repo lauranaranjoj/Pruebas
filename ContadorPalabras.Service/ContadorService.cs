@@ -19,6 +19,7 @@ namespace ContadorPalabras.Service
 
                 texto = texto.Replace(".", "");
                 texto = texto.Replace(",", "");
+                texto = texto.Replace("\n", " ");
 
                 string[] arrayPalabras = texto.Split(' ');
 
